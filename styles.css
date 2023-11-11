@@ -21,8 +21,7 @@ body {
 
 #container {
   margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   width: 330px;
   background-color: white;
   border-radius: 10px;
@@ -41,11 +40,11 @@ body {
 }
 
 #text-container {
-  margin: 36px 35px 0 32px;
+  margin: 36px 38px 0 32px;
 }
 
 #byline-container {
-  padding: 5px 32px 15px;
+  padding: 17px 32px 22px;
   display: flex;
   align-items: center;
 }

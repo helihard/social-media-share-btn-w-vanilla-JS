@@ -6,22 +6,24 @@ h1 {
   color: var(--verydarkgrayishblue);
 }
 
-p {
+#text-container p {
+  margin: 12px 0;
   font-size: 13px;
   line-height: 1.6;
   letter-spacing: .1px;
   color: var(--desaturateddarkblue);
 }
 
-strong {
+#byline-container strong {
   color: var(--verydarkgrayishblue);
   font-weight: 700;
 }
 
 #byline-container p {
-  position: relative;
-  top: 1px;
-  font-size: 12.5px;
+  margin: 0;
+  font-size: 12.4px;
+  line-height: 1.6;
+  letter-spacing: .1px;
   color: var(--grayishblue);
 }
 
