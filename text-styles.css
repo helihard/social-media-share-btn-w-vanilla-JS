@@ -27,7 +27,7 @@ h1 {
   color: var(--grayishblue);
 }
 
-#social-media-container span {
+#social-media-container span, #share-tooltip span {
   color: var(--grayishblue);
   font-variant: small-caps;
   font-size: 18px;

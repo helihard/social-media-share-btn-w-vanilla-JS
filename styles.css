@@ -20,6 +20,7 @@ body {
 }
 
 #container {
+  position: relative;
   margin-top: 2rem;
   display: grid;
   width: 330px;
@@ -93,4 +94,30 @@ body {
 
 #share-img-dark {
   color: white;
+}
+
+#share-tooltip {
+  position: absolute;
+  z-index: 1000;
+  left: 74.2%;
+  top: 46.5%;
+  background-color: var(--verydarkgrayishblue);
+  border: 1px solid var(--verydarkgrayishblue);
+  border-radius: 10px;
+  width: 170px;
+  padding: 13px 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#share-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: var(--verydarkgrayishblue) transparent transparent transparent;
 }
