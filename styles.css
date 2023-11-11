@@ -41,11 +41,11 @@ body {
 }
 
 #text-container {
-  margin: 36px 35px 7px 32px;
+  margin: 36px 35px 0 32px;
 }
 
-#byline {
-  padding: 15px 32px 15px;
+#byline-container {
+  padding: 5px 32px 15px;
   display: flex;
   align-items: center;
 }
