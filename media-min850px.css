@@ -1,7 +1,7 @@
 @media (min-width: 850px) {
 
   #wrapper {
-    justify-content: flex-start;
+    align-items: center;
     margin-left: 2rem;
   }
 
